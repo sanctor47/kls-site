@@ -1,7 +1,8 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, BookOpen, Globe, Link, Sparkles } from "lucide-react";
+import { ArrowRight, BookOpen, Globe,  Sparkles } from "lucide-react";
 import earlyYears from "@/public/early-years.png";
 import Image from "next/image";
+import Link from "next/link";
 
 const pathways = [
   {
@@ -84,7 +85,7 @@ export function PathwaysPreview() {
                 Our Finnish-inspired early years program nurtures curiosity and builds 
                 the foundation for lifelong success.
               </p>
-              <Link to="/academics">
+              <Link href="/academics">
                 <Button variant="goldOutline">
                   Explore Our Curriculum
                 </Button>

@@ -1,5 +1,3 @@
-import { Header } from "@/components/layout/Header";
-import { Footer } from "@/components/layout/Footer";
 import { CTABand } from "@/components/sections/CTABand";
 import { Eye, Target, Heart, Award } from "lucide-react";
 import innovationLab from "@/public/innovation-lab.png";
