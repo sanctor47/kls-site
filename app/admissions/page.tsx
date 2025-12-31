@@ -157,10 +157,10 @@ const Admissions = () => {
                             <div className="space-y-8">
                                 {journeySteps.map((step, index) => (
                                     <div key={step.step} className="relative flex gap-6">
-                                        <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-bold z-10">
+                                        <div className="shrink-0 w-12 h-12 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-bold z-10">
                                             {step.step}
                                         </div>
-                                        <div className="flex-grow pb-8">
+                                        <div className="grow pb-8">
                                             <h3 className="text-xl font-serif font-semibold text-foreground mb-2">
                                                 {step.title}
                                             </h3>

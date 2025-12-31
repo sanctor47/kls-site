@@ -89,7 +89,7 @@ const Academics = () => {
                                     <ul className="space-y-3">
                                         {britishFeatures.map((feature) => (
                                             <li key={feature} className="flex items-start gap-3">
-                                                <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                                                <CheckCircle className="w-5 h-5 text-primary mt-0.5 shrink-0" />
                                                 <span className="text-foreground">{feature}</span>
                                             </li>
                                         ))}
@@ -99,7 +99,7 @@ const Academics = () => {
                                     <Image
                                         src={library}
                                         alt="Students studying in library"
-                                        className="rounded-lg w-full h-[400px] object-cover"
+                                        className="rounded-lg w-full h-100 object-cover"
                                     />
                                 </div>
                             </div>
@@ -120,7 +120,7 @@ const Academics = () => {
                                     <ul className="space-y-3">
                                         {americanFeatures.map((feature) => (
                                             <li key={feature} className="flex items-start gap-3">
-                                                <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                                                <CheckCircle className="w-5 h-5 text-primary mt-0.5 shrink-0" />
                                                 <span className="text-foreground">{feature}</span>
                                             </li>
                                         ))}
@@ -130,7 +130,7 @@ const Academics = () => {
                                     <Image
                                         src={innovationLab}
                                         alt="Students in innovation lab"
-                                        className="rounded-lg w-full h-[400px] object-cover"
+                                        className="rounded-lg w-full h-100 object-cover"
                                     />
                                 </div>
                             </div>
@@ -151,7 +151,7 @@ const Academics = () => {
                                     <ul className="space-y-3">
                                         {earlyYearsFeatures.map((feature) => (
                                             <li key={feature} className="flex items-start gap-3">
-                                                <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                                                <CheckCircle className="w-5 h-5 text-primary mt-0.5 shrink-0" />
                                                 <span className="text-foreground">{feature}</span>
                                             </li>
                                         ))}
@@ -161,7 +161,7 @@ const Academics = () => {
                                     <Image
                                         src={earlyYears}
                                         alt="Children in early years classroom"
-                                        className="rounded-lg w-full h-[400px] object-cover"
+                                        className="rounded-lg w-full h-100 object-cover"
                                     />
                                 </div>
                             </div>
@@ -182,7 +182,7 @@ const Academics = () => {
                         </p>
                     </div>
                     <div className="overflow-x-auto">
-                        <table className="w-full min-w-[600px] border-collapse">
+                        <table className="w-full min-w-150 border-collapse">
                             <thead>
                                 <tr className="border-b border-border">
                                     <th className="text-left py-4 px-6 text-foreground font-serif text-lg">Feature</th>

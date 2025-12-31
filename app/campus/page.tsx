@@ -39,13 +39,13 @@ const Campus = () => {
 
         <main className="pt-20">
             {/* Hero */}
-            <section className="relative h-[60vh] min-h-[500px]">
+            <section className="relative h-[60vh] min-h-125">
                 <Image
                     src={heroCampus}
                     alt="KLS SIA Campus"
                     className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent" />
+                <div className="absolute inset-0 bg-linear-to-t from-background via-background/50 to-transparent" />
                 <div className="absolute inset-0 flex items-center justify-center">
                     <div className="text-center px-4">
                         <span className="text-primary text-sm font-medium tracking-wider uppercase mb-4 block">
@@ -93,7 +93,7 @@ const Campus = () => {
                                     <Image
                                         src={facility.image}
                                         alt={facility.title}
-                                        className="rounded-lg w-full h-[350px] object-cover hover-lift"
+                                        className="rounded-lg w-full h-87.5 object-cover hover-lift"
                                     />
                                     <div className="absolute -bottom-4 -right-4 w-24 h-24 border-2 border-primary/30 rounded-lg -z-10" />
                                 </div>

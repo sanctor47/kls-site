@@ -76,7 +76,7 @@ export function PathwaysPreview() {
             alt="Finnish-inspired early years classroom"
             className="w-full h-64 lg:h-80 object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-background/90 to-background/40 flex items-center">
+          <div className="absolute inset-0 bg-linear-to-r from-background/90 to-background/40 flex items-center">
             <div className="container mx-auto px-8 lg:px-16">
               <h3 className="text-2xl lg:text-3xl font-serif font-bold text-foreground mb-3">
                 Where Every Child's Journey Begins

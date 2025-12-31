@@ -65,13 +65,13 @@ const StudentLife = () => {
             </section>
 
             {/* Image Banner */}
-            <section className="relative h-[40vh] min-h-[300px]">
+            <section className="relative h-[40vh] min-h-75">
                 <Image
                     src={athletics}
                     alt="Students in sports activities"
                     className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-background to-transparent" />
+                <div className="absolute inset-0 bg-linear-to-t from-background to-transparent" />
             </section>
 
             {/* Activities Grid */}

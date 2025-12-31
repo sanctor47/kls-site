@@ -15,9 +15,9 @@ export function IntroSection() {
               <Image
                 src={innovationLab}
                 alt="Students collaborating in innovation lab"
-                className="w-full h-[400px] lg:h-[500px] object-cover"
+                className="w-full h-100 lg:h-125 object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-background/50 to-transparent" />
+              <div className="absolute inset-0 bg-linear-to-t from-background/50 to-transparent" />
             </div>
             {/* Decorative Element */}
             <div className="absolute -bottom-6 -right-6 w-32 h-32 border-2 border-primary/30 rounded-lg -z-10" />

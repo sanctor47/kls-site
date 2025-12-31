@@ -1,18 +1,35 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+import localFont from 'next/font/local'
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+const avenir = localFont({
+  src: [
+    {
+      path: '../public/fonts/Avenir Light.ttf',
+      weight: '300',
+      style: 'normal',
+    },
+    {
+      path: '../public/fonts/Avenir Regular.ttf',
+      weight: '400', // "Book" or Regular
+      style: 'normal',
+    },
+    {
+      path: '../public/fonts/Avenir Heavy.ttf',
+      weight: '600',
+      style: 'normal',
+    },
+    {
+      path: '../public/fonts/Avenir Black.ttf',
+      weight: '900',
+      style: 'normal',
+    },
+  ],
+  variable: '--font-avenir' // This defines the CSS variable name
+})
 
 export const metadata: Metadata = {
   title: "KLS SIA | Excellence in Education | Opening 2026/2027",
@@ -55,7 +72,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${avenir.variable} antialiased`}
       >
         <Header />
         {children}

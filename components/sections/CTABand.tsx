@@ -16,7 +16,7 @@ export function CTABand({
   buttonLink = "/admissions#register",
 }: CTABandProps) {
   return (
-    <section className="py-20 bg-gradient-to-r from-navy-light to-secondary relative overflow-hidden">
+    <section className="py-20 bg-linear-to-r from-navy-light to-secondary relative overflow-hidden">
       {/* Decorative Elements */}
       <div className="absolute top-0 left-0 w-64 h-64 bg-primary/5 rounded-full -translate-x-1/2 -translate-y-1/2" />
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-primary/5 rounded-full translate-x-1/2 translate-y-1/2" />

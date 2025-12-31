@@ -81,7 +81,7 @@ const About = () => {
                             <Image
                                 src={innovationLab}
                                 alt="Students learning in modern classroom"
-                                className="rounded-lg w-full h-[400px] object-cover"
+                                className="rounded-lg w-full h-100 object-cover"
                             />
                             <div className="absolute -bottom-6 -left-6 w-32 h-32 border-2 border-primary/30 rounded-lg -z-10" />
                         </div>
