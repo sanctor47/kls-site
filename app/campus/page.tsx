@@ -90,11 +90,11 @@ const Campus = () => {
                                     </p>
                                 </div>
                                 <div className={`relative ${index % 2 === 1 ? "lg:order-1" : ""}`}>
-                                    <Image
+                                    {/* <Image
                                         src={facility.image}
                                         alt={facility.title}
                                         className="rounded-lg w-full h-87.5 object-cover hover-lift"
-                                    />
+                                    /> */}
                                     <div className="absolute -bottom-4 -right-4 w-24 h-24 border-2 border-primary/30 rounded-lg -z-10" />
                                 </div>
                             </div>

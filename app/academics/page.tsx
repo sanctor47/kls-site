@@ -84,7 +84,7 @@ const Academics = () => {
                                         Our British pathway follows the internationally recognized Cambridge IGCSE
                                         curriculum, renowned for its academic rigor and depth. Students develop
                                         mastery in core subjects while building critical thinking skills that
-                                        prepare them for A Levels and admission to the world's top universities.
+                                        prepare them for A Levels and admission to the world&apos;s top universities.
                                     </p>
                                     <ul className="space-y-3">
                                         {britishFeatures.map((feature) => (
@@ -96,11 +96,11 @@ const Academics = () => {
                                     </ul>
                                 </div>
                                 <div className="relative">
-                                    <Image
+                                    {/* <Image
                                         src={library}
                                         alt="Students studying in library"
                                         className="rounded-lg w-full h-100 object-cover"
-                                    />
+                                    /> */}
                                 </div>
                             </div>
                         </TabsContent>
@@ -127,11 +127,11 @@ const Academics = () => {
                                     </ul>
                                 </div>
                                 <div className="relative">
-                                    <Image
+                                    {/* <Image
                                         src={innovationLab}
                                         alt="Students in innovation lab"
                                         className="rounded-lg w-full h-100 object-cover"
-                                    />
+                                    /> */}
                                 </div>
                             </div>
                         </TabsContent>
@@ -143,7 +143,7 @@ const Academics = () => {
                                         Finnish-Inspired <span className="text-gradient-gold">Early Years</span>
                                     </h2>
                                     <p className="text-muted-foreground leading-relaxed mb-6">
-                                        Our early years program draws from Finland's world-leading approach to
+                                        Our early years program draws from Finland&apos;s world-leading approach to
                                         childhood education. Through play, exploration, and social interaction,
                                         young learners develop independence, creativity, and a genuine love
                                         of learning that forms the foundation for academic success.
@@ -158,11 +158,11 @@ const Academics = () => {
                                     </ul>
                                 </div>
                                 <div className="relative">
-                                    <Image
+                                    {/* <Image
                                         src={earlyYears}
                                         alt="Children in early years classroom"
                                         className="rounded-lg w-full h-100 object-cover"
-                                    />
+                                    /> */}
                                 </div>
                             </div>
                         </TabsContent>
@@ -178,7 +178,7 @@ const Academics = () => {
                             Pathway <span className="text-gradient-gold">Comparison</span>
                         </h2>
                         <p className="text-muted-foreground">
-                            Find the right fit for your child's learning style and aspirations
+                            Find the right fit for your child&apos;s learning style and aspirations
                         </p>
                     </div>
                     <div className="overflow-x-auto">
