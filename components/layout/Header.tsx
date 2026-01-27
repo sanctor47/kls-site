@@ -53,7 +53,7 @@ export function Header() {
                     <Link href="/" className="flex items-center gap-3">
                         <Image
                             src={logo}
-                            alt="KLS SIA Logo"
+                            alt="KIS SIA Logo"
                             width={180}
                             height={80}
                             className="object-contain"

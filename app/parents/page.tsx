@@ -22,7 +22,7 @@ const Parents = () => {
                             Parents & <span className="text-gradient-gold">Community</span>
                         </h1>
                         <p className="text-xl text-muted-foreground leading-relaxed">
-                            At KLS SIA, parents are partners. Together, we create an environment
+                            At KIS SIA, parents are partners. Together, we create an environment
                             where every child can thrive.
                         </p>
                     </div>
@@ -40,7 +40,7 @@ const Parents = () => {
                             <div className="space-y-4 text-muted-foreground leading-relaxed">
                                 <p>
                                     We believe that the strongest educational outcomes happen when schools
-                                    and families work together. At KLS SIA, parents aren't just informed —
+                                    and families work together. At KIS SIA, parents aren't just informed —
                                     they're involved, heard, and valued.
                                 </p>
                                 <p>

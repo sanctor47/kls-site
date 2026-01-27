@@ -45,29 +45,29 @@ const journeySteps = [
     {
         step: 5,
         title: "Accept Your Place",
-        description: "Secure your child's place in KLS SIA's prestigious inaugural cohort.",
+        description: "Secure your child's place in KIS SIA's prestigious inaugural cohort.",
     },
 ];
 
 const faqs = [
     {
-        question: "What age groups does KLS SIA accept for the 2026/2027 opening year?",
+        question: "What age groups does KIS SIA accept for the 2026/2027 opening year?",
         answer: "For our inaugural year, we will be accepting students for Pre-School and KG1. We plan to expand grade levels annually as our first cohort progresses.",
     },
     {
-        question: "Does KLS SIA provide transportation services?",
+        question: "Does KIS SIA provide transportation services?",
         answer: "Yes, we will offer comprehensive transportation services covering major residential areas. Details will be shared with admitted families.",
     },
     {
         question: "What is the academic calendar?",
-        answer: "KLS SIA follows an international academic calendar beginning in September and ending in June, with breaks aligned to Egyptian national holidays and international school standards.",
+        answer: "KIS SIA follows an international academic calendar beginning in September and ending in June, with breaks aligned to Egyptian national holidays and international school standards.",
     },
     {
         question: "Can students switch between British and American pathways?",
         answer: "Yes, we provide flexibility for students to transition between pathways at appropriate junctures, supported by academic counseling to ensure smooth transitions.",
     },
     {
-        question: "What qualifications do KLS SIA teachers hold?",
+        question: "What qualifications do KIS SIA teachers hold?",
         answer: "Our faculty holds advanced degrees and international teaching certifications. Many have experience at leading institutions worldwide and undergo continuous professional development.",
     },
 ];
@@ -305,7 +305,7 @@ const Admissions = () => {
                                     className="mt-1"
                                 />
                                 <Label htmlFor="consent" className="text-sm text-muted-foreground font-normal">
-                                    I consent to KLS SIA collecting and processing my personal data in accordance
+                                    I consent to KIS SIA collecting and processing my personal data in accordance
                                     with the privacy policy. I understand I may be contacted regarding admissions.
                                 </Label>
                             </div>

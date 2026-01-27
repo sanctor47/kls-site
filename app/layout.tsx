@@ -32,16 +32,16 @@ const avenir = localFont({
 })
 
 export const metadata: Metadata = {
-  title: "KLS SIA | Excellence in Education | Opening 2026/2027",
+  title: "KIS SIA | Excellence in Education | Opening 2026/2027",
   description:
-    "KLS SIA is a premium international school in Egypt offering British IGCSE, American Diploma, and Finnish-inspired early years education. Setting a new global standard for excellence.",
+    "KIS SIA is a premium international school in Egypt offering British IGCSE, American Diploma, and Finnish-inspired early years education. Setting a new global standard for excellence.",
   generator: "v0.app",
   keywords: [
     "international school Egypt",
     "IGCSE Egypt",
     "American Diploma Egypt",
     "premium education",
-    "KLS SIA",
+    "KIS SIA",
     "Cairo international school",
   ],
   icons: {

@@ -11,7 +11,7 @@ export function HeroSection() {
       <div className="absolute inset-0">
         <Image
           src={heroCampus}
-          alt="KLS SIA Campus at golden hour"
+          alt="KIS SIA Campus at golden hour"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-linear-to-b from-background/70 via-background/60 to-background" />
@@ -37,7 +37,7 @@ export function HeroSection() {
 
           {/* Supporting Line */}
           <p className="animate-fade-in-delay text-xl sm:text-2xl font-serif italic text-primary mb-4">
-            KLS SIA is Where Legacy Meets Innovation
+            KIS SIA is Where Legacy Meets Innovation
           </p>
 
           {/* Subheadline */}

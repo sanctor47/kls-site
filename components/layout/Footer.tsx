@@ -37,7 +37,7 @@ export function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <Link href="/" className="inline-block mb-6">
-              <span className="text-3xl font-serif font-bold text-primary">KLS SIA</span>
+              <span className="text-3xl font-serif font-bold text-primary">KIS SIA</span>
               <p className="text-[10px] tracking-[0.2em] text-muted-foreground uppercase mt-1">
                 Premium Education
               </p>
@@ -127,7 +127,7 @@ export function Footer() {
         {/* Copyright */}
         <div className="mt-8 pt-8 border-t border-border text-center">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} KLS SIA. All rights reserved. | A Legacy of Excellence
+            © {new Date().getFullYear()} KIS SIA. All rights reserved. | A Legacy of Excellence
           </p>
         </div>
       </div>

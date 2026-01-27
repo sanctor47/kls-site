@@ -42,7 +42,7 @@ const Campus = () => {
             <section className="relative h-[60vh] min-h-125">
                 <Image
                     src={heroCampus}
-                    alt="KLS SIA Campus"
+                    alt="KIS SIA Campus"
                     className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-linear-to-t from-background via-background/50 to-transparent" />

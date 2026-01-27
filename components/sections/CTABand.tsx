@@ -11,7 +11,7 @@ interface CTABandProps {
 
 export function CTABand({
   title = "Begin Your Child's Journey",
-  description = "Secure a place in the inaugural cohort of KLS SIA. Register your interest today and be among the first to experience premium education reimagined.",
+  description = "Secure a place in the inaugural cohort of KIS SIA. Register your interest today and be among the first to experience premium education reimagined.",
   buttonText = "Register Your Interest",
   buttonLink = "/admissions#register",
 }: CTABandProps) {

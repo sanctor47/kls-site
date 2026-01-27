@@ -29,7 +29,7 @@ const highlights = [
   {
     icon: Award,
     title: "A Trusted Legacy",
-    description: "Building on KLS's decades of educational excellence — SIA represents our pinnacle chapter.",
+    description: "Building on KIS's decades of educational excellence — SIA represents our pinnacle chapter.",
   },
 ];
 
@@ -40,7 +40,7 @@ export function HighlightsSection() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-foreground mb-6">
-            The <span className="text-gradient-gold">KLS SIA</span> Difference
+            The <span className="text-gradient-gold">KIS SIA</span> Difference
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Where tradition meets innovation, and every student is empowered to become 

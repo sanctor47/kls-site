@@ -57,7 +57,7 @@ const StudentLife = () => {
                             Student <span className="text-gradient-gold">Life</span>
                         </h1>
                         <p className="text-xl text-muted-foreground leading-relaxed">
-                            Education at KLS SIA extends far beyond academics. We nurture complete
+                            Education at KIS SIA extends far beyond academics. We nurture complete
                             individuals through diverse experiences that build character, skills, and passions.
                         </p>
                     </div>
@@ -65,14 +65,14 @@ const StudentLife = () => {
             </section>
 
             {/* Image Banner */}
-            <section className="relative h-[40vh] min-h-75">
+            {/* <section className="relative h-[40vh] min-h-75">
                 <Image
                     src={athletics}
                     alt="Students in sports activities"
                     className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-linear-to-t from-background to-transparent" />
-            </section>
+            </section> */}
 
             {/* Activities Grid */}
             <section className="py-24 bg-background">
@@ -113,11 +113,11 @@ const StudentLife = () => {
                 <div className="container mx-auto px-4 lg:px-8">
                     <div className="max-w-4xl mx-auto text-center">
                         <blockquote className="text-2xl sm:text-3xl font-serif italic text-foreground leading-relaxed mb-8">
-                            "At KLS SIA, we believe that the experiences outside the classroom are
-                            just as important as those within. We're not just building scholars —
-                            we're building leaders, artists, athletes, and citizens."
+                            &quot;At KIS SIA, we believe that the experiences outside the classroom are
+                            just as important as those within. We&apos;re not just building scholars —
+                            we&apos;re building leaders, artists, athletes, and citizens.&quot;
                         </blockquote>
-                        <p className="text-primary font-medium">— The KLS SIA Philosophy</p>
+                        <p className="text-primary font-medium">— The KIS SIA Philosophy</p>
                     </div>
                 </div>
             </section>
