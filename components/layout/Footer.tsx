@@ -23,8 +23,8 @@ const footerLinks = {
 };
 
 const socialLinks = [
-  { icon: Facebook, href: "#", label: "Facebook" },
-  { icon: Instagram, href: "#", label: "Instagram" },
+  { icon: Facebook, href: "https://www.facebook.com/share/1D23cHjLbo/?mibextid=wwXIfr", label: "Facebook" },
+  { icon: Instagram, href: "https://www.instagram.com/kls.sia?igsh=cGo3eGlmaWw0NnRu", label: "Instagram" },
   // { icon: Twitter, href: "#", label: "Twitter" },
   // { icon: Linkedin, href: "#", label: "LinkedIn" },
 ];
