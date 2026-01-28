@@ -42,7 +42,7 @@ const Contact = () => {
                             Contact <span className="text-gradient-gold">Us</span>
                         </h1>
                         <p className="text-xl text-muted-foreground leading-relaxed">
-                            We're here to answer your questions and guide you through the admissions process.
+                            We&apos;re here to answer your questions and guide you through the admissions process.
                         </p>
                     </div>
                 </div>
@@ -79,7 +79,7 @@ const Contact = () => {
                                     <div>
                                         <h3 className="font-semibold text-foreground mb-1">Phone</h3>
                                         <p className="text-muted-foreground">
-                                            +20 (0) 2 XXX XXXX
+                                            +20 127 555 4825
                                         </p>
                                     </div>
                                 </div>
