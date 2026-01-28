@@ -1,6 +1,6 @@
 import { CTABand } from "@/components/sections/CTABand";
 import { Eye, Target, Heart, Award } from "lucide-react";
-import innovationLab from "@/public/innovation-lab.png";
+import ElghonanmyLogo from "@/public/el-ghonanmy.png";
 import Image from "next/image";
 
 const values = [
@@ -147,6 +147,55 @@ const About = () => {
                         </div>
                     </div>
                 </div>
+            </section>
+
+            {/* El Ghoniemy Group Section */}
+            <section className="py-24 bg-background flex flex-col items-center gap-12">
+                <div className="container mx-auto px-4 lg:px-8">
+                    <div className="grid lg:grid-cols-2 gap-16 items-center">
+                        <div className="mb-12">
+                            <span className="text-primary text-sm font-medium tracking-wider uppercase mb-4 block">
+                                Our Foundation
+                            </span>
+                            <h2 className="text-3xl sm:text-4xl font-serif font-bold text-foreground">
+                                Who <span className="text-gradient-gold">We Are</span>
+                            </h2>
+                        </div>
+                    </div>
+                    {/* <div className="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto"> */}
+                    <div className="space-y-6 text-muted-foreground leading-relaxed">
+                        <p>
+                            El Ghoniemy Group is one of the leading economic and investment groups in Alexandria and the Arab Republic of Egypt.
+                        </p>
+                        <p>
+                            El Ghoniemy Group has established itself as a prominent economic and investment entity, achieving numerous successes and milestones across diverse sectors.
+                            These achievements have significantly contributed to strengthening its distinguished position through continuous development, enabling the Group to become one of the leading companies in the steel and cement industries.
+                        </p>
+                        <p>
+                            The Group has also played a major role in achieving leadership in the contracting and real estate investment sectors, in addition to the production of ready-mix concrete and other successful ventures.
+                        </p>
+                        <p>
+                            Since its establishment in 1973, El Ghoniemy Group has maintained a steady journey of growth driven by years of continuous effort, efficiency, and dedication. This journey is built on a strong and solid history, simply put, a legacy forged in steel.
+                        </p>
+                        <p>
+                            El Ghoniemy Group owns a wide portfolio of major residential, commercial, and investment projects across prime locations in Alexandria. Starting with the Falory Group, located in Al-Maamoura, San Stefano, Smouha, and Antoniades, and extending to the VEE Group, which is present in some of the most prominent current developments in Alexandria. Among its most notable projects are developments in New Marouj and Sawary, alongside the Savalogiat Al-Ard project within Sawary.
+                        </p>
+                        <p>
+                            These distinguished projects are characterized by advanced infrastructure, strategic locations, and integrated services, in addition to modern, contemporary designs and elegant finishes. This has ensured that the name El Ghoniemy consistently resonates across the nation, strongly associated with excellence and leadership in the Alexandrian real estate market and beyond.
+                        </p>
+                        <p>
+                            Maintaining excellence and success across multiple sectors has always been one of the greatest challenges for El Ghoniemy Group. Over more than 50 years of hard work, development, and perseverance, the Group has succeeded in overcoming challenges and obstacles while continuously striving for excellence and a future driven by ambition.
+                        </p>
+                        <p>
+                            Our journey continues with confidence, inspired by the aspirations of our partners and clients, as we move forward on a path of sustained success—guided by a vision fundamentally rooted in achieving prosperity for the nation and society as a whole.
+                        </p>
+                    </div>
+                </div>
+                <Image
+                    src={ElghonanmyLogo}
+                    alt="El Ghoniemy Group Logo"
+                    className="w-full max-w-md h-auto opacity-90"
+                />
             </section>
 
             <CTABand />

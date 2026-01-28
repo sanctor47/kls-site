@@ -25,8 +25,8 @@ const footerLinks = {
 const socialLinks = [
   { icon: Facebook, href: "#", label: "Facebook" },
   { icon: Instagram, href: "#", label: "Instagram" },
-  { icon: Twitter, href: "#", label: "Twitter" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
+  // { icon: Twitter, href: "#", label: "Twitter" },
+  // { icon: Linkedin, href: "#", label: "LinkedIn" },
 ];
 
 export function Footer() {

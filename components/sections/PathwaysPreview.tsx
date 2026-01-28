@@ -38,7 +38,7 @@ export function PathwaysPreview() {
             World-Class <span className="text-gradient-gold">Pathways</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Choose the educational journey that best aligns with your child's ambitions 
+            Choose the educational journey that best aligns with your child&apos;s ambitions 
             and learning style.
           </p>
         </div>
@@ -79,7 +79,7 @@ export function PathwaysPreview() {
           <div className="absolute inset-0 bg-linear-to-r from-background/90 to-background/40 flex items-center">
             <div className="container mx-auto px-8 lg:px-16">
               <h3 className="text-2xl lg:text-3xl font-serif font-bold text-foreground mb-3">
-                Where Every Child's Journey Begins
+                Where Every Child&apos;s Journey Begins
               </h3>
               <p className="text-muted-foreground max-w-lg mb-6">
                 Our Finnish-inspired early years program nurtures curiosity and builds 
