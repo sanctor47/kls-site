@@ -155,10 +155,11 @@ const About = () => {
                     <div className="grid lg:grid-cols-2 gap-16 items-center">
                         <div className="mb-12">
                             <span className="text-primary text-sm font-medium tracking-wider uppercase mb-4 block">
-                                Our Foundation
+                                About
                             </span>
                             <h2 className="text-3xl sm:text-4xl font-serif font-bold text-foreground">
-                                Who <span className="text-gradient-gold">We Are</span>
+                                {/* Who <span className="text-gradient-gold">We Are</span> */}
+                                El Ghoniemy Group
                             </h2>
                         </div>
                     </div>
