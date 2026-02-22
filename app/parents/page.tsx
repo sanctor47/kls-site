@@ -40,13 +40,13 @@ const Parents = () => {
                             <div className="space-y-4 text-muted-foreground leading-relaxed">
                                 <p>
                                     We believe that the strongest educational outcomes happen when schools
-                                    and families work together. At KIS SIA, parents aren't just informed —
-                                    they're involved, heard, and valued.
+                                    and families work together. At KIS SIA, parents aren&apos;t just informed —
+                                    they&apos;re involved, heard, and valued.
                                 </p>
                                 <p>
                                     From open communication channels to leadership forums, we create
                                     opportunities for parents to contribute to our community and stay
-                                    connected to their child's journey.
+                                    connected to their child&apos;s journey.
                                 </p>
                             </div>
                         </div>
