@@ -14,12 +14,12 @@ const footerLinks = {
     { label: "FAQs", href: "/admissions#faqs" },
     { label: "Contact Admissions", href: "/contact" },
   ],
-  community: [
-    { label: "Parents Portal", href: "/parents" },
-    { label: "News & Insights", href: "/news" },
-    { label: "Careers", href: "/careers" },
-    { label: "Privacy Policy", href: "/privacy" },
-  ],
+  // community: [
+  //   { label: "Parents Portal", href: "/parents" },
+  //   { label: "News & Insights", href: "/news" },
+  //   { label: "Careers", href: "/careers" },
+  //   { label: "Privacy Policy", href: "/privacy" },
+  // ],
 };
 
 const socialLinks = [
@@ -94,7 +94,7 @@ export function Footer() {
           </div>
 
           {/* Community Links */}
-          <div>
+          {/* <div>
             <h4 className="font-serif text-lg font-semibold text-foreground mb-4">Community</h4>
             <ul className="space-y-3">
               {footerLinks.community.map((link) => (
@@ -108,7 +108,7 @@ export function Footer() {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
         </div>
 
         {/* Accreditations */}

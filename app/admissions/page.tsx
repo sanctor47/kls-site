@@ -19,7 +19,7 @@ import {
     AccordionItem,
     AccordionTrigger,
 } from "@/components/ui/accordion";
-import { CheckCircle, ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 const journeySteps = [
     {
@@ -131,7 +131,7 @@ const Admissions = () => {
                             Admissions <span className="text-gradient-gold">2026/2027</span>
                         </h1>
                         <p className="text-xl text-muted-foreground leading-relaxed">
-                            Opening Year Entry Levels: Pre-School & KG1 — expanding annually thereafter.
+                            Opening Year Entry Levels: Pre-School, KG1 and FS1 — expanding annually thereafter.
                         </p>
                     </div>
                 </div>
@@ -145,7 +145,7 @@ const Admissions = () => {
                             Your <span className="text-gradient-gold">Admissions</span> Journey
                         </h2>
                         <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                            A straightforward path to joining Egypt's most prestigious new school.
+                            A straightforward path to joining Egypt&apos;s most prestigious new school.
                         </p>
                     </div>
 
@@ -155,7 +155,7 @@ const Admissions = () => {
                             <div className="absolute left-6 top-0 bottom-0 w-0.5 bg-border hidden md:block" />
 
                             <div className="space-y-8">
-                                {journeySteps.map((step, index) => (
+                                {journeySteps.map((step) => (
                                     <div key={step.step} className="relative flex gap-6">
                                         <div className="shrink-0 w-12 h-12 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-bold z-10">
                                             {step.step}
@@ -225,7 +225,7 @@ const Admissions = () => {
                                     />
                                 </div>
                                 <div className="space-y-2">
-                                    <Label htmlFor="childName">Child's Name *</Label>
+                                    <Label htmlFor="childName">Child&apos;s Name *</Label>
                                     <Input
                                         id="childName"
                                         required
@@ -238,7 +238,7 @@ const Admissions = () => {
 
                             <div className="grid md:grid-cols-2 gap-6">
                                 <div className="space-y-2">
-                                    <Label htmlFor="childAge">Child's Age / Date of Birth *</Label>
+                                    <Label htmlFor="childAge">Child&apos;s Age / Date of Birth *</Label>
                                     <Input
                                         id="childAge"
                                         required
@@ -260,6 +260,7 @@ const Admissions = () => {
                                         <SelectContent className="bg-card border-border">
                                             <SelectItem value="pre-school">Pre-School</SelectItem>
                                             <SelectItem value="kg1">KG1</SelectItem>
+                                            <SelectItem value="fs1">FS1</SelectItem>
                                             <SelectItem value="other">Other / Future Years</SelectItem>
                                         </SelectContent>
                                     </Select>

@@ -49,7 +49,7 @@ const Contact = () => {
             </section>
 
             {/* Contact Info + Form */}
-            <section className="py-24 bg-background">
+            <section className="py-24 bg-background  container mx-auto px-4 lg:px-8">
                 <div className="container mx-auto px-4 lg:px-8">
                     <div className="grid lg:grid-cols-2 gap-16">
                         {/* Contact Information */}
@@ -66,7 +66,14 @@ const Contact = () => {
                                     <div>
                                         <h3 className="font-semibold text-foreground mb-1">Campus Location</h3>
                                         <p className="text-muted-foreground">
-                                            Sawary Compound, Alexandria, Egypt
+                                            <a
+                                                href="https://maps.app.goo.gl/5XP4sSrDnv8c7jHx7?g_st=iw"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="hover:text-primary transition-colors"
+                                            >
+                                                Sawary Compound, Alexandria, Egypt
+                                            </a>
                                         </p>
                                     </div>
                                 </div>
@@ -78,7 +85,28 @@ const Contact = () => {
                                     <div>
                                         <h3 className="font-semibold text-foreground mb-1">Phone</h3>
                                         <p className="text-muted-foreground">
-                                            +20 127 555 4825
+                                            <a href="tel:+201275554825" className="hover:text-primary transition-colors">
+                                                +20 127 555 4825
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div className="flex items-start gap-4">
+                                    <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
+                                        <Phone className="w-5 h-5 text-primary" />
+                                    </div>
+                                    <div>
+                                        <h3 className="font-semibold text-foreground mb-1">WhatsApp</h3>
+                                        <p className="text-muted-foreground">
+                                            <a
+                                                href="https://wa.me/201275554825"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="hover:text-primary transition-colors"
+                                            >
+                                                +20 127 555 4825
+                                            </a>
                                         </p>
                                     </div>
                                 </div>
@@ -90,7 +118,9 @@ const Contact = () => {
                                     <div>
                                         <h3 className="font-semibold text-foreground mb-1">Email</h3>
                                         <p className="text-muted-foreground">
-                                            admissions@KISsia.edu.eg
+                                            <a href="mailto:admissions@kis-sia.com" className="hover:text-primary transition-colors">
+                                                admissions@kis-sia.com
+                                            </a>
                                         </p>
                                     </div>
                                 </div>
@@ -102,7 +132,7 @@ const Contact = () => {
                                     <div>
                                         <h3 className="font-semibold text-foreground mb-1">Office Hours</h3>
                                         <p className="text-muted-foreground">
-                                            Sunday - Thursday: 8:00 AM - 4:00 PM<br />
+                                            Sunday - Thursday: 8:00 AM - 1:30 PM<br />
                                             Friday - Saturday: Closed
                                         </p>
                                     </div>

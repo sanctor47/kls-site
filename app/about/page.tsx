@@ -17,7 +17,7 @@ const values = [
     {
         icon: Heart,
         title: "Philosophy",
-        description: "We believe education should go beyond academics. At KLS SIA, learning is a process of transformation — cultivating intelligence, character, and creativity. Our students are taught to ask bold questions, challenge assumptions, and discover their own potential to shape the world.",
+        description: "We believe education should go beyond academics. At KIS SIA, learning is a process of transformation — cultivating intelligence, character, and creativity. Our students are taught to ask bold questions, challenge assumptions, and discover their own potential to shape the world.",
     },
     {
         icon: Award,
